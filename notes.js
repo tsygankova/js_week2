@@ -99,3 +99,17 @@ const lannisters = ['Taiwin', 'Cersei', 'Jaime', 'Tyrion']
 for ( let i = 0; i < (lannisters.length); i +=1){
     console.log(lannisters[i]);
 }
+
+console.table (lannisters);
+
+// for ( let i = 0; i < (lannisters.length); i += 1){
+//   lannisters[i] += 1;
+// }
+
+// console.table (lannisters);
+
+// цикл for ... of
+
+for (let lannister of lannisters){
+    console.log(lannister); 
+}
