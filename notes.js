@@ -110,6 +110,6 @@ console.table (lannisters);
 
 // цикл for ... of
 
-for (let lannister of lannisters){
+for (const lannister of lannisters){
     console.log(lannister); 
 }
