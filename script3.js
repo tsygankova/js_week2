@@ -9,7 +9,7 @@
 */
 
 const login = ['umrao', 'shmutza', 'tsyganek', 'instead', 'tsy_kata'];
-const loginToFind = 'umro';
+const loginToFind = 'umrao';
 
 for (let i = 0; i < login.length; i +=1) {
     if (login.includes (loginToFind)){
