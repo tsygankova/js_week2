@@ -16,7 +16,7 @@ console.log (r3);
 
 const fn = function (value){
     if (value < 50){ return 'меньше, чем 50'} 
-    else { return 'больше, чем 50'}
+   return 'больше, чем 50'
 } 
 
 console.log (fn(500));
