@@ -10,8 +10,15 @@ ${номер элемента} - ${значение элемента}\n , где
 Используйте вспомогательную переменную result для добавления (конкатенации) строк внутри цикла for*/
 
 const getItemsString = function (array) {
-    'use strict',
-    for (i = 0; i < array.length; i +=1){
-console.log (array);
+    console.log (array);
+    for (let i = 1; i <= array.length; i +=1){
+        console.log (`${i} - ${array[1]} /n`)
     }
 }
+
+const logItems = (['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']);
+
+const logItems2 =([5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);
+
+getItemsString (logItems);
+getItemsString (logItems2);
