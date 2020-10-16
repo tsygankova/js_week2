@@ -8,8 +8,8 @@
 const formatString = function (string, maxLength = 40){
     let array = string.split('');
     if (array.length > maxLength) {
-        let newArray = array.splice (40, array.length - maxLength);
-        array.splice (40, 0, "...");
+        let newArray = array.splice (maxLength, array.length - maxLength);
+        array.splice (maxLength, 0, "...");
         return array.join('')
     } return string;
 }
